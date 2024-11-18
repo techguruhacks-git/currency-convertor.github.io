@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: linear-gradient(45deg, #000000,#0f0d0d);
+    
+}
+.container{
+    width: 370px;
+    padding: 30px;
+    border-radius: 8px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    border: 4px solid aquamarine;
+    transition: 0.3 all ease;
+}
+.container:hover{
+    transform: translateY(-10px);
+    box-shadow:  15px 15px 32px #e0dfdf,
+                 -15px -15px 32px #ffffff;
+}
+.container header{
+    font-size: 28px;
+    font-weight: 500;
+    text-align: center;
+}
+.container form{
+    margin: 40px 0 20px 0;
+}
+form :where(input, select, button){
+    width: 100%;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+form p{
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+form input{
+    height: 50px;
+    font-size: 18px;
+    padding: 0 15px;
+    border-radius: 1px solid #999;
+}
+form input:focus{
+    border: 2px solid red;
+    padding: 0 14px;
+
+}
+form .drop-list{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.drop-list p{
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.drop-list .select-Box{
+    display: flex;
+    height: 45px;
+    width: 115px;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #999;
+    border-radius: 5px;
+    margin: 25px;
+
+}
+.select-Box select{
+    width: auto;
+    font-size: 16px;
+    margin: 0 -5px 0 5px;
+
+}
+.select-Box select::-webkit-scrollbar{
+    width: 8px;
+}
+.select-Box select::-webkit-scrollbar-track{
+    background: #fff;
+}
+.select-Box select::-webkit-scrollbar-thumb{
+    background: #888;
+    border-radius: 8px;
+    border-right: 2px solid #fff;
+}
+.select-Box img{
+    max-width: 45px;
+}
+.drop-list .icon{
+    cursor: pointer;
+    font-size: 22px;
+    margin-top: 30px;
+}
+form .exchange{
+    font-size: 17px;
+    margin: 20px 0 30px;
+}
+form button{
+    color: #000;
+    height: 60px;
+    cursor: pointer;
+    background: rgb(47, 189, 236);
+    font-size: 17px;
+    font-weight: 600;
+    font-family: cursive;
+    margin-top: 30px;
+    border-radius: 20px;
+    transition: 0.3s all ease;
+}
+form button:hover{
+    transform: translateY(-10px);
+    border: 2px dashed black;
+}
+
