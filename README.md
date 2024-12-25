@@ -1,4 +1,6 @@
 # currency-convertor.github.io
+
+Disclaimer: Made with the help of Tutorials and i changed the user interface and add some my own features.
  
 This is a Web application that allows users to covert one currency to another in real-time. it uses HTml for the structure, CSS for styling and javascript to handle the currency conversion flag conversion by fetching exchange rates froma pulic api.
 
